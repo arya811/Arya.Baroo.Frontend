@@ -1,0 +1,59 @@
+.login-form {
+  min-width: 150px;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-full-width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  margin-right: -5vw;
+  height: 13vh;
+}
+
+.password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  margin-right: -5vw;
+}
+
+.register {
+  margin-top: -2vh;
+  font-size: large;
+}
+
+.example-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58vh;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40vw;
+  margin-top: 12vh;
+}
+.button {
+  width: 35vw;
+  height: 9vh;
+  font-size: large;
+}
+.image {
+  display: inline;
+  width: 10vw;
+  margin-right: 27vw;
+  margin-top: -80vh;
+}
+.name {
+  font-size: xx-large;
+  color: blue;
+  font-weight: bold;
+}
+.hi {
+  margin-right: -26vw;
+  font-size: large;
+}

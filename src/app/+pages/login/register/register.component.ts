@@ -3,13 +3,13 @@ import { FormBuilder, FormControl, FormGroupDirective, NgForm, Validators } from
 import { ErrorStateMatcher } from '@angular/material/core';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+  selector: 'app-register',
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.scss']
 })
-export class LoginComponent {
+export class RegisterComponent {
   constructor(private fb: FormBuilder) {}
-  loginForm = this.fb.group({
+  registerForm = this.fb.group({
     mobile: [
       '',
       [
@@ -26,11 +26,10 @@ export class LoginComponent {
         Validators.pattern('(?=.*[a-z])(?=.*[A-Z])(?=.*d).+'),
       ],
     ],
+    title: ['', [Validators.required, Validators.minLength(3)]],
+    shoptitle: ['', [Validators.required]],
   });
   matcher = new MyErrorStateMatcher();
-  show() {
-    console.log(this.loginForm.value);
-  }
   hide = true;
 }
 
