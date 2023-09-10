@@ -57,3 +57,93 @@
   margin-right: -26vw;
   font-size: large;
 }
+@media screen and (max-width: 1100px) {
+  .example-card {
+    width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70vh;
+  }
+  .button {
+    width: 90%;
+  }
+  .password {
+    width: 54vw;
+    margin-right: -10vw;
+  }
+  .login-full-width {
+    width: 54vw;
+    margin-right: -10vw;
+  }
+  .image {
+    display: none;
+  }
+  .hi {
+    margin-right: -40vw;
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 820px) {
+  .example-card {
+    width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70vh;
+  }
+  .password {
+    width: 54vw;
+    margin-right: -5.6vw;
+  }
+  .login-full-width {
+    width: 54vw;
+    margin-right: -5.6vw;
+  }
+}
+@media screen and (max-width: 709px) {
+  .example-card {
+    width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
+    height: 60vh;
+  }
+  .password {
+    width: 54vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .login-full-width {
+    width: 54vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .hi {
+    margin-right: -50vw;
+    font-size: small;
+  }
+}
+@media screen and (max-width: 500px) {
+  .example-card {
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+    height: 60vh;
+    margin-top: 10vh;
+  }
+  .password {
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .login-full-width {
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+    height: 11vh;
+  }
+  .button {
+    height: 7vh;
+  }
+  .name {
+    font-size: x-large;
+  }
+}
